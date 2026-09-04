@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Cinzel", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-navy-950: #050E1C;
+  --color-navy-900: #0B1E3D;
+  --color-navy-800: #132D58;
+  --color-navy-700: #1B3D74;
+  --color-navy-600: #265196;
+  
+  --color-gold-600: #9E7915;
+  --color-gold-500: #C59B27;
+  --color-gold-400: #D8AF3B;
+  --color-gold-300: #E6C564;
+  --color-gold-100: #FBF4DE;
+  --color-gold-50: #FDF9EC;
+
+  --color-sand-50: #FCFAF7;
+  --color-sand-100: #F6F3EE;
+  --color-sand-200: #EDE7DC;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  /* Custom scrollbar for modern sleek look */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F1F5F9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #CBD5E1;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94A3B8;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Radiant International School",
+  "description": "Radiant International School in Kololo, Juba provides world-class Cambridge International curriculum education from Creche to Primary (Y1–Y3) where every child shines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
