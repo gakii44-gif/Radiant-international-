@@ -59,7 +59,7 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Col 1: School Identity & Mission (4 cols) */}
           <div className="lg:col-span-4 space-y-5">
             <div className="flex items-center">
-              <RadiantLogo variant="light" size="md" />
+              <RadiantLogo variant="light" size="lg" />
             </div>
 
             <p className="text-xs text-slate-300 leading-relaxed max-w-sm">

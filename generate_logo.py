@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+import subprocess
+
+svg_content = '''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
   <defs>
     <!-- Gradients for Gold Lustre -->
@@ -207,3 +209,12 @@
     </g>
   </g>
 </svg>
+'''
+
+with open('public/radiant-crest.svg', 'w') as f:
+    f.write(svg_content)
+
+print("Saved public/radiant-crest.svg successfully!")
+subprocess.run(['convert', '-background', 'none', '-resize', '600x600', 'public/radiant-crest.svg', 'public/radiant-crest.png'])
+subprocess.run(['convert', '-background', 'none', '-resize', '128x128', 'public/radiant-crest.svg', 'public/favicon.png'])
+print("Converted to public/radiant-crest.png and favicon.png!")

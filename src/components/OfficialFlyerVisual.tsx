@@ -65,7 +65,7 @@ export const OfficialFlyerVisual: React.FC<OfficialFlyerVisualProps> = ({
         <div>
           {/* School Crest & Title */}
           <div className="flex items-center justify-between border-b border-white/10 pb-4 mb-4">
-            <RadiantLogo variant="light" size="md" />
+            <RadiantLogo variant="light" size="lg" />
             <div className="text-right">
               <span className="inline-block px-3 py-1 bg-[#C59B27] text-[#0B1E3D] text-[11px] font-black rounded-lg uppercase tracking-wider">
                 Official Announcement
@@ -147,7 +147,7 @@ export const OfficialFlyerVisual: React.FC<OfficialFlyerVisualProps> = ({
       >
         <div className="space-y-4">
           <div className="flex items-center justify-between border-b border-white/10 pb-4">
-            <RadiantLogo variant="light" size="md" />
+            <RadiantLogo variant="light" size="lg" />
             <span className="px-3 py-1 bg-[#C59B27]/20 border border-[#C59B27]/40 text-[#DFB743] text-xs font-bold rounded-lg">
               Primary Cambridge Y1, Y2, Y3
             </span>
@@ -219,7 +219,7 @@ export const OfficialFlyerVisual: React.FC<OfficialFlyerVisualProps> = ({
     >
       <div>
         <div className="flex items-center justify-between border-b border-stone-200 pb-4 mb-4">
-          <RadiantLogo variant="dark" size="md" />
+          <RadiantLogo variant="dark" size="lg" />
           <span className="px-3 py-1 bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold rounded-lg uppercase">
             Admissions Open
           </span>

@@ -203,7 +203,7 @@ export const Hero: React.FC<HeroProps> = ({
                     <div className="text-[10px] text-slate-300">Curriculum</div>
                   </div>
                   <div className="bg-[#0B1E3D]/80 rounded-lg p-2.5 border border-white/5">
-                    <div className="text-xs font-bold text-[#DFB743]">Year 1 - 3+</div>
+                    <div className="text-xs font-bold text-[#DFB743]">Year 1 – 3</div>
                     <div className="text-[10px] text-slate-300">Reg. Open</div>
                   </div>
                   <div className="bg-[#0B1E3D]/80 rounded-lg p-2.5 border border-white/5">
@@ -229,7 +229,7 @@ export const Hero: React.FC<HeroProps> = ({
               <GraduationCap className="w-5 h-5 text-[#DFB743] flex-shrink-0" />
               <div className="text-left">
                 <span className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-white">Academic Excellence</span>
-                <span className="text-[11px] text-slate-400">Cambridge & IB World Continuum</span>
+                <span className="text-[11px] text-slate-400">Cambridge Primary &amp; Early Years</span>
               </div>
             </div>
 
